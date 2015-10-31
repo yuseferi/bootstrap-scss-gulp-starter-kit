@@ -1,4 +1,18 @@
 # bootstrap-gulp-starter-kit
-Starter kit for web development with Bootstrap and Gulp
+Minimal front-end web development starter kit with Bootstrap and following Gulp tasks:
+* BrowserSync
+* SASS/SCSS compiler
+* Plumber to prevent gulp crash on SASS/SCSS error
 
-Minimal bare starter kit with Bootstrap and Gulp tasks using BrowserSync and SASS. 
+--
+
+#### Install Dependencies
+```
+npm install
+```
+
+#### Start compiling, serving, and watching files
+```
+gulp
+```
+
