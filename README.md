@@ -15,6 +15,7 @@ This repo is a starter kit for front-end developer, so developers can easily sta
 * bootstrap.min.css
 * jquery.1.11.3.min.js
 * bootstrap.min.js
+* main.scss
 
 And following Gulp tasks:
 * BrowserSync
