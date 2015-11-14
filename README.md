@@ -1,18 +1,15 @@
 # Bootstrap
-Minimal front-end web development starter kit with Bootstrap files:
 * bootstrap.min.css
 * jquery.1.11.3.min.js
 * bootstrap.min.js
 
 # Bootstrap-SCSS
-Minimal front-end web development starter kit with Bootstrap files:
 * bootstrap.min.css
 * jquery.1.11.3.min.js
 * bootstrap.min.js
 * main.scss
 
 # Bootstrap-SCSS-Gulp
-Minimal front-end web development starter kit with Bootstrap files:
 * bootstrap.min.css
 * jquery.1.11.3.min.js
 * bootstrap.min.js
