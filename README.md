@@ -20,13 +20,13 @@ And following Gulp tasks:
 * SASS/SCSS compiler
 * Plumber to prevent gulp crash on SASS/SCSS error
 
-##### 1. CD to a directory containing `gulpfile.js`
+##### 1. CD to a directory 'gulp' containing `gulpfile.js`
 ##### 2. Install Dependencies
 ```
 npm install
 ```
 
-##### 3.S tart compiling, serving, and watching files
+##### 3. Start compiling, serving, and watching files
 ```
 gulp
 ```
