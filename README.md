@@ -2,6 +2,8 @@ This repo is a starter kit for front-end developer, so developers can easily sta
 
 There is two versions that would suit everyone: one is very basic that contain essential bootstrap files, and another is essential bootstrap files and gulp with SCSS compiler, browsersync and plumber. Both versions have bare minimal `index.html`.
 
+To request a new version and feature or report a bug, please open an issue and I'll take a look at it.
+
 ## Bootstrap
 * `bootstrap.min.css`
 * `jquery.1.11.3.min.js`
