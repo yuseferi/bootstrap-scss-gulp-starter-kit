@@ -1,7 +1,7 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var plumber     = require('gulp-plumber');
-var sass        = require('gulp-sass');
+var plumber = require('gulp-plumber');
+var sass = require('gulp-sass');
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
