@@ -39,10 +39,17 @@ gulp
 
 ### For new developers:
 
-1. You need terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not sustainable for development work. I recommend you to install [cmder](http://cmder.net/) as a replacement for Windows terminal and use their custom cmd.exe (instead of default PowerShell). If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501). I recommend you to learn terminal basics [here](http://cli.learncodethehardway.org/book/), this will help you in long run.
+#####1. Terminal
+You need terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. 
 
-2. Next install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed correctly, run terminal and enter `npm` to see if it's working properly. If it does, proceed to the next step.
+Windows has it as well but cmd and PowerShell is not sustainable for development work. I recommend you to install [cmder](http://cmder.net/) as a replacement for Windows terminal and use their custom cmd.exe (instead of default PowerShell). If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501). 
 
-3. Install gulp with this terminal command: `npm install --global gulp`
+Learn terminal basics [here](http://cli.learncodethehardway.org/book/), this will help you in long run.
 
-On completion, download bootstrap-scss-gulp from this repo and follow the instruction in bootstrap-scss-gulp section.
+#####2. npm
+Install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed correctly, run terminal and enter `npm` to see if it's working properly. If it does, proceed to the next step.
+
+#####3. gulp
+Install gulp globally with this terminal command: `npm install --global gulp`
+
+On completion, download this repo and extract bootstrap-scss-gulp to any folder. Follow the instruction in bootstrap-scss-gulp section on this readme.
