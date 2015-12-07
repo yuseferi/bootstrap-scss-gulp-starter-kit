@@ -47,7 +47,7 @@ Windows has it as well but cmd and PowerShell is not sustainable for development
 Learn terminal basics [here](http://cli.learncodethehardway.org/book/), this will help you in long run.
 
 #####2. npm
-Install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed correctly, run terminal and enter `npm` to see if it's working properly. If it does, proceed to the next step.
+Install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed, enter `npm` in terminal to see if it's working properly, as in it should tell you the usage information. If it does, proceed to the next step.
 
 #####3. gulp
 Install gulp globally with this terminal command: `npm install --global gulp`
