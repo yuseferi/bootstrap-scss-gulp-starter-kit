@@ -26,7 +26,7 @@ Gulp has the following tasks:
 * Plumber (prevents gulp crash on SASS/SCSS error)
 
 ##### 1. CD to a directory 'gulp' containing `gulpfile.js`
-##### 2. Install Dependencies
+##### 2. Install dependencies
 ```
 npm install
 ```
