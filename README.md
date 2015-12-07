@@ -38,7 +38,7 @@ gulp
 
 ---
 
-### For new developers:
+### For gulp beginners:
 
 #####1. Terminal
 You need terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. 
