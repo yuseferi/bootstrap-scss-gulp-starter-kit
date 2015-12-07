@@ -1,26 +1,28 @@
-This repo is a starter kit for front-end developer, so developers can easily start a new project without setting up everything all over again. 
+This repo is a starter kit for front-end developer, so developers can easily start a new project without setting up everything all over again.
 
-There is two versions that would suit everyone: one is very basic that contain essential bootstrap files, and another is essential bootstrap files and gulp with SCSS compiler, browsersync and plumber. Both versions have bare minimal `index.html`.
+There is two versions that would suit everyone: one is very basic that contain index.html and essential bootstrap files, another contain index.html, essential bootstrap files and gulp with SCSS compiler and BrowserSync.
+
+This is also friendly for new users who want to start using Gulp as part of your development flow. See the beginning guide on the bottom of readme. 
 
 To request a new version and feature or report a bug, please open an issue and I'll take a look at it.
 
-## Bootstrap
-* `bootstrap.min.css`
-* `jquery.1.11.3.min.js`
-* `bootstrap.min.js`
+### bootstrap
+* `assets/css/bootstrap.min.css`
+* `assets/js/jquery.1.11.3.min.js`
+* `assets/js/bootstrap.min.js`
 * `index.html`
 
-## Bootstrap-SCSS-Gulp
-* `bootstrap.min.css`
-* `jquery.1.11.3.min.js`
-* `bootstrap.min.js`
-* `main.scss`
+### bootstrap-scss-gulp
+* `assets/css/bootstrap.min.css`
+* `assets/js/jquery.1.11.3.min.js`
+* `assets/js/bootstrap.min.js`
+* `assets/scss/main.scss`
 * `index.html`
 
-And following Gulp tasks:
-* BrowserSync
-* SASS/SCSS compiler
-* Plumber to prevent gulp crash on SASS/SCSS error
+Gulp has the following tasks:
+* BrowserSync (automatically refresh working files in browser on save)
+* SASS/SCSS compiler (automatically compiles SCSS to CSS on save)
+* Plumber (prevents gulp crash on SASS/SCSS error)
 
 ##### 1. CD to a directory 'gulp' containing `gulpfile.js`
 ##### 2. Install Dependencies
@@ -32,3 +34,19 @@ npm install
 ```
 gulp
 ```
+
+---
+
+### For new developers:
+
+You need to get the following installed:
+* npm
+* gulp
+
+1. You need to have terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not sustainable for development work. I recommend you to install [cmder](http://cmder.net/) as a replacement for Windows terminal and use their custom cmd.exe (instead of default PowerShell). If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501).
+
+2. Next install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed correctly, run terminal and enter `npm` to see if it's working properly. If it does, proceed to the next step.
+
+3. Install gulp with this terminal command: `npm install --global gulp`
+
+On completion, download bootstrap-scss-gulp from this repo and follow the instruction in bootstrap-scss-gulp section.
