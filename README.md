@@ -14,6 +14,7 @@ To request a new version and feature or report a bug, please open an issue and I
 
 ### bootstrap-scss-gulp
 * `assets/css/bootstrap.min.css`
+* `gulp/gulpfile.js`
 * `assets/js/jquery.1.11.3.min.js`
 * `assets/js/bootstrap.min.js`
 * `assets/scss/main.scss`
