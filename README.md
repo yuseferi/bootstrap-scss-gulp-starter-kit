@@ -39,11 +39,7 @@ gulp
 
 ### For new developers:
 
-You need to get the following installed:
-* `npm`
-* `gulp`
-
-1. You need to have terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not sustainable for development work. I recommend you to install [cmder](http://cmder.net/) as a replacement for Windows terminal and use their custom cmd.exe (instead of default PowerShell). If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501).
+1. You need terminal to use npm and gulp. Terminal is available out of the box on Linux and OS X. Windows has it as well but cmd and PowerShell is not sustainable for development work. I recommend you to install [cmder](http://cmder.net/) as a replacement for Windows terminal and use their custom cmd.exe (instead of default PowerShell). If you have runtime error when starting cmder, you'll probably need to install VS 2015, see [the issue here](https://github.com/cmderdev/cmder/issues/501).
 
 2. Next install [npm](https://nodejs.org/en/download/). This is available for all operating system. During the installation for Windows, be sure to tick an option to add npm to PATH environment variables. When installed correctly, run terminal and enter `npm` to see if it's working properly. If it does, proceed to the next step.
 
