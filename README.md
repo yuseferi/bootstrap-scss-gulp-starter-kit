@@ -28,7 +28,7 @@ Gulp has the following tasks:
 ##### 1. CD to a directory 'gulp' containing `gulpfile.js`
 ##### 2. Install dependencies
 ```
-npm install
+npm install --save-dev
 ```
 
 ##### 3. Start compiling, serving, and watching files
@@ -53,4 +53,4 @@ Install [npm](https://nodejs.org/en/download/). This is available for all operat
 #####3. gulp
 Install gulp globally with this terminal command: `npm install --global gulp`
 
-On completion, download this repo and extract bootstrap-scss-gulp to any folder. Follow the instruction in bootstrap-scss-gulp section on this readme.
+On completion, download this repo and extract bootstrap-scss-gulp to any folder. Follow the instruction in bootstrap-scss-gulp section on this readme by running `npm install --save-dev` and `gulp`.
