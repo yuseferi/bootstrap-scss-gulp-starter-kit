@@ -53,4 +53,4 @@ Install [npm](https://nodejs.org/en/download/). This is available for all operat
 #####3. gulp
 Install gulp globally with this terminal command: `npm install --global gulp`
 
-On completion, download this repo and extract bootstrap-scss-gulp to any folder. Follow the instruction in bootstrap-scss-gulp section on this readme by running `npm install --save-dev` and `gulp`.
+On completion, download this repo and extract bootstrap-scss-gulp to any folder. Follow the instruction in bootstrap-scss-gulp section on this readme by running `npm install --save-dev`, then run `gulp`. Default browser should open the index.html and will refresh on file save when you edit files.
