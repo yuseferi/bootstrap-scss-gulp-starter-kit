@@ -1,10 +1,8 @@
-This repo is a starter kit for front-end developer, so developers can easily start a new project without setting up everything all over again.
+This repo is a starter kit for front-end developer, so developers can easily start a new project without setting up everything all over again. For new users, refer to the guide below.
 
-There is two versions that would suit everyone: one is very basic that contain index.html and essential bootstrap files, another contain index.html, essential bootstrap files and gulp with SCSS compiler and BrowserSync.
+There is two versions that would suit everyone: one is very basic that contain index.html and essential bootstrap files, another contain index.html, essential bootstrap files and gulp with features listed below.
 
-This is also friendly for new users who want to start using Gulp as part of your development flow. See the beginning guide on the bottom of readme. 
-
-To request a new version and feature or report a bug, please open an issue and I'll take a look at it.
+To request a new version and feature or report a bug, please open an issue.
 
 ### bootstrap
 * `assets/css/bootstrap.min.css`
@@ -15,8 +13,8 @@ To request a new version and feature or report a bug, please open an issue and I
 ### bootstrap-scss-gulp
 * `assets/css/bootstrap.min.css`
 * `gulp/gulpfile.js`
-* `assets/js/jquery.1.11.3.min.js`
-* `assets/js/bootstrap.min.js`
+* `assets/js/vendors/jquery.1.11.3.min.js`
+* `assets/js/vendors/bootstrap.min.js`
 * `assets/scss/main.scss`
 * `index.html`
 
@@ -24,6 +22,8 @@ Gulp has the following tasks:
 * BrowserSync (automatically refresh working files in browser on save)
 * SASS/SCSS compiler (automatically compiles SCSS to CSS on save)
 * Plumber (prevents gulp crash on SASS/SCSS error)
+* Notify (SASS/SCSS compile error tray notification)
+* CSS minifier (minifies main.min.css)
 
 ##### 1. CD to a directory 'gulp' containing `gulpfile.js`
 ##### 2. Install dependencies
