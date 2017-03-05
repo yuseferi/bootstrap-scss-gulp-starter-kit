@@ -1,22 +1,5 @@
 This repo is a starter kit for front-end developers, non-gulp or gulp, so developers can easily start a new project without setting up everything all over again. For new users, refer to the guide below.
 
-###For non-gulp users:
-Use `bootstrap` folder _(I recommend you to start using gulp ASAP, it's a life changer)_
-
-###For gulp users
-Use `bootstrap-scss-gulp` and please refer to the guide below if you're not particularly familiar with gulp.
-
-Basically, there are two versions that would suit both non-gulp and gulp users: one is very basic that contain index.html and essential bootstrap files, another contain index.html, essential bootstrap files and gulp with features listed below.
-
-To request a new version and feature or report a bug, please open an issue.
-
-### bootstrap
-* `assets/css/bootstrap.min.css`
-* `assets/js/jquery.1.11.3.min.js`
-* `assets/js/bootstrap.min.js`
-* `index.html`
-
-### bootstrap-scss-gulp
 * `gulp/gulpfile.js`
 * `gulp/package.json`
 * `assets/css/bootstrap.min.css`
